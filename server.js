@@ -9,7 +9,7 @@ const cors=require('cors')
 app.use(cors({
     origin: '*'
   }));
-  
+app.use(express.json())
 
 dotenv.config({path:'config.env'})
 const PORT =process.env.PORT  || 5000
