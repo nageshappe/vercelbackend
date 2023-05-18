@@ -65,6 +65,7 @@ exports.createj=(req,res)=>{
         });
   //  res.end()
   }
+  
 
 // exports.createjob=(req, res) => {
 //       const { jobid,jobrole,company,description,salary,enddate } = req.body;
